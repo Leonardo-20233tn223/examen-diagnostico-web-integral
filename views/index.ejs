@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Examen Diagnóstico</title>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/stylesheets/styles.css">
+</head>
+<body class="container">
+    <h1 class="mt-4">Mi lista de videojuegos favoritos</h1>
+    <hr>
+    <section class="card p-3 mb-4">
+        <h2 class="h4 mb-3" id="form-titulo">Agregar videojuego</h2>
+        <div id="mensaje" class="alert d-none" role="alert"></div>
+
+        <form id="formulario-videojuego" class="row g-3">
+            <input type="hidden" id="videojuego-id">
+
+            <div class="col-md-6">
+                <label for="nombre" class="form-label">Videojuego</label>
+                <input type="text" class="form-control" id="nombre" name="nombre" required>
+            </div>
+
+            <div class="col-md-6">
+                <label for="empresa" class="form-label">Empresa</label>
+                <input type="text" class="form-control" id="empresa" name="empresa" required>
+            </div>
+
+            <div class="col-md-6">
+                <label for="fecha_lanzamiento" class="form-label">Fecha de lanzamiento</label>
+                <input type="date" class="form-control" id="fecha_lanzamiento" name="fecha_lanzamiento" required>
+            </div>
+
+            <div class="col-md-6">
+                <label for="estrellas" class="form-label">Recomendación</label>
+                <select class="form-select" id="estrellas" name="estrellas" required>
+                    <option value="" selected disabled>Selecciona una calificación</option>
+                    <option value="1">1 de 5</option>
+                    <option value="2">2 de 5</option>
+                    <option value="3">3 de 5</option>
+                    <option value="4">4 de 5</option>
+                    <option value="5">5 de 5</option>
+                </select>
+            </div>
+
+            <div class="col-12 d-flex gap-2">
+                <button type="submit" class="btn btn-success" id="btn-guardar">Guardar</button>
+                <button type="button" class="btn btn-secondary d-none" id="btn-cancelar">Cancelar edición</button>
+            </div>
+        </form>
+    </section>
+
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th scope="col">No.</th>
+                <th scope="col">Videojuego</th>
+                <th scope="col">Empresa</th>
+                <th scope="col">Fecha de lanzamiento</th>
+                <th scope="col">¿Recomendable?</th>
+                <th scope="col">Acciones</th>
+            </tr>
+        </thead>
+        <tbody id="tabla-videojuegos-contenido">
+        </tbody>
+    </table>
+    <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/javascripts/scripts.js"></script>
+</body>
+</html>

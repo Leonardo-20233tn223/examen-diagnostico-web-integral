@@ -1,0 +1,12 @@
+body {
+	padding-bottom: 2rem;
+}
+
+.card {
+	border-radius: 0.75rem;
+}
+
+#tabla-videojuegos-contenido td,
+#tabla-videojuegos-contenido th {
+	vertical-align: middle;
+}
