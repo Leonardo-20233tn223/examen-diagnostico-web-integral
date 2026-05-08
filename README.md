@@ -61,8 +61,6 @@ http://localhost:3001
 ```
 
 ## Evidencias o capturas de pantalla
-
-```md
 ![Listado principal](docs/screenshots/listado.png)
 ![Formulario de alta 1](docs/screenshots/agregar-1.png)
 ![Formulario de alta 2](docs/screenshots/agregar-2.png)
@@ -71,7 +69,6 @@ http://localhost:3001
 ![Eliminacion de videojuego 1](docs/screenshots/eliminar-1.png)
 ![Eliminacion de videojuego 2](docs/screenshots/eliminar-2.png)
 ![Evidencia de la persistencia](docs/screenshots/persistencia.png)
-```
 
 ## Uso de IA
 Sí, se utilizó IA como apoyo durante el desarrollo.
