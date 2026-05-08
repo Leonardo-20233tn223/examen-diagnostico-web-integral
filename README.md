@@ -61,13 +61,22 @@ http://localhost:3001
 ```
 
 ## Evidencias o capturas de pantalla
+### Listado
 ![Listado principal](docs/screenshots/listado.png)
+
+### Agregar un videojuego
 ![Formulario de alta 1](docs/screenshots/agregar-1.png)
 ![Formulario de alta 2](docs/screenshots/agregar-2.png)
+
+### Editar un videojuego 
 ![Edicion de videojuego 1](docs/screenshots/editar-1.png)
 ![Edicion de videojuego 2](docs/screenshots/editar-2.png)
+
+### Eliminar un videojuego
 ![Eliminacion de videojuego 1](docs/screenshots/eliminar-1.png)
 ![Eliminacion de videojuego 2](docs/screenshots/eliminar-2.png)
+
+### Evidencia de la presistencia en la bases de datos
 ![Evidencia de la persistencia](docs/screenshots/persistencia.png)
 
 ## Uso de IA
